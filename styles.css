@@ -1,0 +1,119 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #FF1493; /* 진한 분홍색 */
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start; /* 왼쪽 정렬 */
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    text-align: left; /* 왼쪽 정렬 */
+}
+
+/* Button styles */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+.cta-button:active {
+    background-color: #111;
+}
+
+/* Custom styles */
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-gallery img {
+    width: 20%;
+    height: auto;
+}
+
+section + section {
+    margin-top: 40px;
+}
+
+/* 추가된 스타일 */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* 이전에 작성한 스타일 유지 */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#image {
+    max-width: 100%;
+    max-height: 400px;
+}
+
+footer {
+  background-color: #ff1493;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #777777;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 섹션의 높이를 화면 전체로 설정 */
+}
