@@ -19,11 +19,23 @@ ul {
     margin: 0;
 }
 
-/* Header styles */
 header {
     background-color: #FF1493; /* 진한 분홍색 */
     color: #fff;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.cta-buttons a {
+    color: #fff;
+    margin-left: 10px;
 }
 
 nav ul {
